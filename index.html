@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DEV-DO - The Ultimate Programmer's To-Do App</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Main container -->
+        <div class="text-center">
+            <h1 class="display-7">Dev-Do</h1>
+            <h3 class="font-weight-normal">The Ultimate To-Do App for developers</h3>
+            <p class="lead">Stay organized and boost your productivity with Dev-Do,
+                 the ultimate to-do app designed specifically for programmers.
+                 Streamline your tasks, manage deadlines, and stay focused on what matters most. With Dev-Do,
+                 you can prioritize your programming tasks, set due dates, and conquer your projects with ease.</p>
+            </div>
+        <div class="container mt-5">
+            <button id="findOutMoreBtn" class="btn btn-primary">Find Out More</button>
+        </div>
+    <!-- Email Signup Form Popup -->
+    <div id="emailFormPopup" class="popup">
+        <div class="popup-content">
+            <h2>Get access to Dev-Do below</h2>
+            <form id="emailForm" class="form-inline justify-content-center">
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+            </form>
+            <span id="closePopup" class="close">&times;</span>
+        </div>
+    </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
